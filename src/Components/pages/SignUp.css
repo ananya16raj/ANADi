@@ -1,0 +1,127 @@
+
+.form{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 999;
+    text-align: center;
+    padding: 60px 32px;
+    width: 370px;
+    transform: translate(-50%, -50%);
+    box-shadow: -1px 4px 28px 0px rgba(0,0,0,0.75);
+}
+.form h1{
+    color: black;
+    font-size: 33px;
+    font-weight: 600;
+    margin: 0 0 35px 0;
+}
+.form-inputs{
+    position: relative;
+    height: 45px;
+    width: 100%;
+    display: flex;
+    background: rgba(255,255,255,0.94);
+    margin-top: 16px;
+}
+.form-inputs span{
+    color: #222;
+    width: 40px;
+    line-height: 45px;
+}
+.form-inputs input{
+    height: 100%;
+    width: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #222;
+    font-size: 16px;
+}
+.space{
+    margin-top:16px;
+}
+.show{
+    position: absolute;
+    right: 13px;
+    font-size: 13px;
+    font-weight: 700;
+    color: #222;
+    display: none;
+    cursor: pointer;
+}
+.pass-key:valid ~ .show{
+    display:block;
+}
+.form-input-btn[type="submit"]{
+    background: #3498db;
+    border: 1px solid #3498db;
+    color: #fff;
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    cursor: pointer;
+
+}
+.form-input-btn[type="submit"]:hover{
+    background: #2691db;
+
+}
+.login{
+    color: #fff;
+    margin: 20px 0;
+
+}
+.links{
+    display: flex;
+    cursor: pointer;
+    color: #fff;
+    margin: 0 0 20px 0;
+
+}
+.facebook,
+.gmail{
+    width: 100%;
+    height: 45px;
+    line-height: 45px;
+    margin-left: 10px;
+  }
+  .facebook{
+      margin-left: 0;
+      background: #4267b2;
+      border: 1px solid #3e61a8;
+  }
+  .gmail{
+      background: #e1306c;
+      border: 1px solid #df2060;
+
+  }
+  .facebook hover{
+      background: #4267b2;
+
+  }
+  .gmail hover{
+    background-color: #df2060;
+  }
+  .links i{
+font-size:17px;
+  }
+  i span{
+      margin-left: 8px;
+      font-weight: 500;
+      letter-spacing: 1px;
+      font-size: 16px;
+  }
+  .form-input-login{
+      font-size:15px;
+      color:#fff;
+
+  }
+  .form-input-login a{
+      color:#3498db;
+      text-decoration: none;
+      
+  }
+  .form-input-login a:hover{
+      text-decoration: underline;
+  }
